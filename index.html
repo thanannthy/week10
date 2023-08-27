@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container mt-5">
+
+    <br>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="user-name">Class Registration</label>
+                        <input type="text"class="form-control" id="user-name">
+
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button id="create-team-btn" class="btn btn-primary form-control">Submit</button>
+            </div>
+        </div>
+    </div> 
+    
+    <br>
+
+    <div id="teams">
+
+    </div>
+
+    <!-- Link to Bootstrap JS and jQuery -->
+    <script src="team.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
